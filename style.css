@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 60px; /* Evita que o menu tape o conteúdo do site */
+}
+
+.barra-acessibilidade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.container-acessibilidade {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 20px;
+}
+
+.botao-controle {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #555555;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.botao-controle:hover {
+  background-color: #0056b3;
+}
